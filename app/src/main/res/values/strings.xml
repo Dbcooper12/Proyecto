@@ -5,9 +5,9 @@
     <string name="Facebook">Facebook</string>
     <string name="Gmail">Gmail</string>
     <string name="acuerdos">Al continuar, aceptas nuestros termminos y condiciones y policas de privacidad</string>
+    <string name="cuenta">Cuenta</string>
     <string name="Ingreso">Registrarte con :</string>
-    <string name="restaurante1"> RESTAURANTE BRAZA ROJA </string>
-    <string name="restaurante2"> RESTAURANTE POPEYES</string>
-    <string name="restaurante3"> RESTAURANTE PIZAA HUT </string>
+
+    <string name="Lista">Lista de Restaurantes</string>
 
 </resources>
