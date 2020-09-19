@@ -9,71 +9,69 @@
     <!-- TODO: Update blank fragment layout -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="387dp"
-        android:layout_height="506dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/idrestaurante1"
-            android:layout_width="304dp"
-            android:layout_height="40dp"
-            android:text="@string/restaurante"
-            android:textSize="36sp"
+            android:id="@+id/idrestauranbrazaroja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="53dp"
-            tools:layout_editor_absoluteY="46dp" />
+            android:verticalScrollbarPosition="defaultPosition"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="371dp"
+            android:layout_height="168dp"
+            android:src="@drawable/labrasa"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="114dp" />
 
         <TextView
-            android:id="@+id/textView8"
-            android:layout_width="210dp"
-            android:layout_height="155dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="390dp"
-            tools:layout_editor_absoluteY="1080dp" />
+            android:id="@+id/idrestaurantepopeyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="303dp" />
 
-        <TableLayout
-            android:layout_width="348dp"
-            android:layout_height="207dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginRight="12dp"
-            android:background="@drawable/rest1"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="161dp">
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="364dp"
+            android:layout_height="140dp"
+            android:src="@drawable/popeyes"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="342dp" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/idrestaurantepizaahut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="497dp" />
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </TableLayout>
-
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="364dp"
+            android:layout_height="186dp"
+            android:src="@drawable/pizaa"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="540dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/idrestaurante2"
-        android:layout_width="340dp"
-        android:layout_height="75dp"
-        android:text="@string/RESTAURANTE2"
-        android:textSize="36sp"
-        android:textStyle="bold" />
 
 </FrameLayout>
