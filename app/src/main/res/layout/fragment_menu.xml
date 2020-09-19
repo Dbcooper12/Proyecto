@@ -16,7 +16,7 @@
             android:id="@+id/idrestaurante1"
             android:layout_width="304dp"
             android:layout_height="40dp"
-            android:text="@string/RESTAURANTE1"
+            android:text="@string/restaurante"
             android:textSize="36sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="53dp"
