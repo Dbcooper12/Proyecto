@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".menu">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="2570dp">
+
+        <TextView
+            android:id="@+id/idrestaurante1"
+            android:layout_width="547dp"
+            android:layout_height="74dp"
+            android:text="@string/RESTAURANTE1"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="443dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="210dp"
+            android:layout_height="155dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="390dp"
+            tools:layout_editor_absoluteY="1080dp" />
+
+        <TextView
+            android:id="@+id/idrestaurante2"
+            android:layout_width="710dp"
+            android:layout_height="105dp"
+            android:text="@string/RESTAURANTE2"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="370dp"
+            tools:layout_editor_absoluteY="905dp" />
+
+        <TableLayout
+            android:layout_width="721dp"
+            android:layout_height="309dp"
+            android:layout_marginEnd="408dp"
+            android:layout_marginRight="408dp"
+            android:background="@drawable/rest1"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="471dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
