@@ -30,16 +30,6 @@
             tools:layout_editor_absoluteX="390dp"
             tools:layout_editor_absoluteY="1080dp" />
 
-        <TextView
-            android:id="@+id/idrestaurante2"
-            android:layout_width="710dp"
-            android:layout_height="105dp"
-            android:text="@string/RESTAURANTE2"
-            android:textSize="36sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="370dp"
-            tools:layout_editor_absoluteY="905dp" />
-
         <TableLayout
             android:layout_width="348dp"
             android:layout_height="207dp"
@@ -77,5 +67,13 @@
         </TableLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/idrestaurante2"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:text="@string/RESTAURANTE2"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
 </FrameLayout>
