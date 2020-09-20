@@ -47,10 +47,10 @@
             app:fontFamily="sans-serif-black"
             app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.408"
+            app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.806" />
+            app:layout_constraintVertical_bias="0.883" />
 
         <TableLayout
             android:id="@+id/tableLayout2"
@@ -58,6 +58,7 @@
             android:layout_height="1082dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0">
