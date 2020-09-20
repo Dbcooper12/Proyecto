@@ -9,13 +9,14 @@
 
     <TextView
         android:id="@+id/ingreso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFEB3B"
+        android:layout_width="177dp"
+        android:layout_height="33dp"
         android:bufferType="spannable"
         android:capitalize="words"
         android:text="@string/Ingreso"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        app:fontFamily="@font/bangers"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,15 +24,15 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="341dp"
-        android:layout_height="346dp"
+        android:layout_width="330dp"
+        android:layout_height="310dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812">
+        app:layout_constraintVertical_bias="0.776">
 
         <TableRow
             android:layout_width="match_parent"

@@ -11,11 +11,14 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="276dp"
-        android:layout_height="404dp"
+        android:layout_width="292dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="264dp"
         android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="49dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,8 +30,12 @@
         android:textSize="36sp"
         android:textStyle="bold"
         app:fontFamily="@font/bangers"
-        tools:ignore="RtlCompat"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="558dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
