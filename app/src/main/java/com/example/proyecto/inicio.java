@@ -18,7 +18,7 @@ public class inicio extends AppCompatActivity {
     //Variables
     Animation topAnim, bottomAnim;
     ImageView image;
-    TextView logo, slogan;
+    TextView logo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,23 +26,23 @@ public class inicio extends AppCompatActivity {
         setContentView(R.layout.activity_inicio);
 
         //Animations
-        topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
-        bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+        bottomAnim  = AnimationUtils.loadAnimation(this,R.anim.top_animation);
+        topAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
         //Hooks
-        image = findViewById(R.id.imageView3);
         logo = findViewById(R.id.textView);
-        slogan = findViewById(R.id.textView);
+        image = findViewById(R.id.imageView3);
 
-        image.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
-        slogan.setAnimation(bottomAnim);
+        image.setAnimation(topAnim);
+
+
 
         new Handler().postDelayed(new Runnable(){
 
             @Override
             public void run() {
-                Intent intent = new Intent(inicio.this,BlankFragment.class);
+                Intent intent = new Intent(inicio.this,sesion.class);
                 startActivity(intent);
                 finish();
             }

@@ -4,108 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAD14A"
     tools:context=".menu">
 
     <!-- TODO: Update blank fragment layout -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idrestauranbrazaroja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            android:verticalScrollbarPosition="defaultPosition"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="371dp"
+            android:layout_height="168dp"
+            android:src="@drawable/labrasa"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <TextView
+            android:id="@+id/idrestaurantepopeyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="303dp" />
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="67dp"
-            android:layout_height="73dp"
-            android:layout_marginStart="36dp"
-            android:layout_marginLeft="36dp"
-            android:layout_marginTop="36dp"
-            android:src="@android:drawable/ic_menu_sort_by_size"
-            android:tint="#F44336"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="228dp"
-            android:layout_height="72dp"
-            android:layout_marginTop="36dp"
-            android:text="@string/cuenta"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageButton2"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_width="364dp"
+            android:layout_height="140dp"
+            android:src="@drawable/popeyes"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="342dp" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="438dp"
-            android:layout_height="43dp"
-            android:text="@string/Lista"
-            android:textColor="#0C0C0C"
-            android:textSize="36sp"
-            app:fontFamily="sans-serif-black"
-            app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.408"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.806" />
+            android:id="@+id/idrestaurantepizaahut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurante3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            tools:fontFamily="times"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="497dp" />
 
-        <TableLayout
-            android:id="@+id/tableLayout2"
-            android:layout_width="796dp"
-            android:layout_height="1082dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
-
-            <TableRow
-                android:layout_width="366dp"
-                android:layout_height="80dp"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_width="596dp"
-                    android:layout_height="168dp"
-                    android:src="@drawable/labrasa" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/popeyes" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="451dp"
-                    android:layout_height="250"
-                    android:src="@drawable/pizaa" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </TableRow>
-        </TableLayout>
-
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="371dp"
+            android:layout_height="165dp"
+            android:src="@drawable/pizaa"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="543dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
