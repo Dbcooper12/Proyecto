@@ -9,5 +9,6 @@
     <string name="Ingreso">Registrarte con :</string>
 
     <string name="Lista">Lista de Restaurantes</string>
+    <string name="title_activity_mapa_brasa_roja">Map</string>
 
 </resources>

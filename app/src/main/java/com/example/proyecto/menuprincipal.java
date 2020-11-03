@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,7 +27,7 @@ public class menuprincipal extends AppCompatActivity {
     TextView tvNombre,tvUsuario,tvEdad,tvPassword;
     Button cuenta;
     RequestQueue requestQueue;
-    Button btnBuscar;
+    ImageButton btnbrasaroja,btnpopeyes,btnpizzahut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,10 @@ public class menuprincipal extends AppCompatActivity {
         et_usuario = (EditText) findViewById(R.id.tv_usuario);
         et_password= (EditText) findViewById(R.id.tv_password);
 
+
+        btnbrasaroja =  findViewById(R.id.brasaroja);
+        btnpopeyes  =  findViewById(R.id.popeyes);
+        btnpizzahut = findViewById(R.id.pizzahut);
 
         cuenta = (Button) findViewById(R.id.cuenta);
 
@@ -52,6 +57,20 @@ public class menuprincipal extends AppCompatActivity {
 
             }
         });
+        //inicializando carwuit brazaroja
+        btnbrasaroja.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(menuprincipal.this,brazaroja.class);
+
+                menuprincipal.this.startActivity(intent);
+            }
+        });
+
+
+
+
+
     }
 
 
